@@ -14,7 +14,30 @@ function Search() {
   
       { word: "Component", meaning: "A reusable building block in React." },
   
-      { word: "State", meaning: "An object that stores data for a component." }
+      { word: "State", meaning: "An object that stores data for a component." },
+      
+      { word: "JavaScript", meaning: "A high-level, interpreted programming language used to create and control dynamic website content." },
+
+      { word: "HTML", meaning: "The standard markup language for creating web pages." },
+
+      { word: "CSS", meaning: "A style sheet language used for describing the presentation of a document written in HTML or XML." },
+
+      { word: "Node.js", meaning: "A JavaScript runtime built on Chrome's V8 JavaScript engine." },
+
+      { word: "API", meaning: "A set of functions and protocols for building and interacting with software applications." },
+
+      { word: "Redux", meaning: "A predictable state container for JavaScript apps." },
+
+      { word: "Hook", meaning: "A special function in React that lets you use state and other React features without writing a class." },
+
+      { word: "Prop", meaning: "A special keyword in React for passing data from one component to another." },
+
+      { word: "ComponentDidMount", meaning: "A lifecycle method in React that is invoked immediately after a component is mounted." },
+
+      { word: "JSX", meaning: "A syntax extension for JavaScript used in React to describe what the UI should look like." }
+
+
+
   
   ]
   
@@ -35,7 +58,7 @@ const handleSearch = ()=>{
 
   }
   else{
-    setmeaning("Type something to get the meaning....")
+    setmeaning("Type something to get meaning....")
   }
 }
 
