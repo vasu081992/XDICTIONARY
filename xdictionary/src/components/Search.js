@@ -58,7 +58,7 @@ const handleSearch = ()=>{
 
   }
   else{
-    setmeaning("Type something to get meaning....")
+    setmeaning("Word not found in the dictionary.")
   }
 }
 
